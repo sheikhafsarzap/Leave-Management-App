@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>chrome_header</name>
+        <page display_value="Leave Management System">207d39a441bd1d1080690ecd8e141ba3</page>
+        <required_translations>[ {
+  "message" : "Configure",
+  "comment" : ""
+}, {
+  "message" : "Logout",
+  "comment" : ""
+}, {
+  "message" : "Settings",
+  "comment" : ""
+}, {
+  "message" : "UserMenu",
+  "comment" : ""
+} ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-09-04 14:09:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>687d39a41dbd1d1096680fbe86ab87a4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="Leave Management System" source="x_492126_leave_m_0">6e44f6081b395910a710639bbc4bcbad</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Leave Management System">6e44f6081b395910a710639bbc4bcbad</sys_scope>
+        <sys_update_name>sys_ux_page_property_687d39a41dbd1d1096680fbe86ab87a4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-04 14:19:34</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_492126_leave_m_0.207d39a441bd1d1080690ecd8e141ba3.root.chrome_header</unique_name>
+        <value>{"privatePage":{"searchEnabled":false,"userPrefsEnabled":true,"currentScreenLinkConfiguration":{"roles":["admin"],"position":250},"globalTools":{"collapsingMenuId":0,"primaryItems":[{"label":"UserMenu","icon":"user","type":"menu","primaryDisplay":"icon","value":{"children":[{"label":{"translatable":true,"message":"Settings"},"position":100,"type":"navigation","value":{"type":"route","value":{"route":"settings","fields":{}}}},{"condition":{"roles":["admin","ui_builder_admin"]},"label":{"translatable":true,"message":"Configure"},"type":"navigation","position":200,"primaryDisplay":"none","value":{"type":"external","opensWindow":"true","value":{"href":"/nav_to.do?uri=/sys_ux_app_config.do?sys_id=c5bbbde2c3121010f46b42583c40dd06"}}},{"label":{"translatable":true,"message":"Logout"},"position":500,"type":"navigation","value":{"type":"AUTH_ROUTE_BINDING","binding":{"address":["logout"],"params":{"reload":true},"default":"/logout.do"}}}]}}],"secondaryItems":[]}},"publicPage":{"menuEnabled":false,"logoRoute":{"type":"route","value":{"route":"landing","fields":{}}},"searchEnabled":false}}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=687d39a41dbd1d1096680fbe86ab87a4"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Leave Management System">6e44f6081b395910a710639bbc4bcbad</application>
+        <file_path/>
+        <instance_id>2ad394afdb7ef3440ae3ac44d4961959</instance_id>
+        <instance_name>dev89404</instance_name>
+        <name>sys_ux_page_property_687d39a41dbd1d1096680fbe86ab87a4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>chrome_header</name><page display_value="Leave Management System">207d39a441bd1d1080690ecd8e141ba3</page><required_translations>[ {
+  "message" : "Configure",
+  "comment" : ""
+}, {
+  "message" : "Logout",
+  "comment" : ""
+}, {
+  "message" : "Settings",
+  "comment" : ""
+}, {
+  "message" : "UserMenu",
+  "comment" : ""
+} ]</required_translations><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2022-09-04 14:09:16</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>687d39a41dbd1d1096680fbe86ab87a4</sys_id><sys_mod_count>2</sys_mod_count><sys_name>chrome_header</sys_name><sys_package display_value="Leave Management System" source="x_492126_leave_m_0">6e44f6081b395910a710639bbc4bcbad</sys_package><sys_policy/><sys_scope display_value="Leave Management System">6e44f6081b395910a710639bbc4bcbad</sys_scope><sys_update_name>sys_ux_page_property_687d39a41dbd1d1096680fbe86ab87a4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-09-04 14:19:34</sys_updated_on><type>json</type><unique_name>x_492126_leave_m_0.207d39a441bd1d1080690ecd8e141ba3.root.chrome_header</unique_name><value>{"privatePage":{"searchEnabled":false,"userPrefsEnabled":true,"currentScreenLinkConfiguration":{"roles":["admin"],"position":250},"globalTools":{"collapsingMenuId":0,"primaryItems":[{"label":"UserMenu","icon":"user","type":"menu","primaryDisplay":"icon","value":{"children":[{"label":{"translatable":true,"message":"Settings"},"position":100,"type":"navigation","value":{"type":"route","value":{"route":"settings","fields":{}}}},{"condition":{"roles":["admin","ui_builder_admin"]},"label":{"translatable":true,"message":"Configure"},"type":"navigation","position":200,"primaryDisplay":"none","value":{"type":"external","opensWindow":"true","value":{"href":"/nav_to.do?uri=/sys_ux_app_config.do?sys_id=c5bbbde2c3121010f46b42583c40dd06"}}},{"label":{"translatable":true,"message":"Logout"},"position":500,"type":"navigation","value":{"type":"AUTH_ROUTE_BINDING","binding":{"address":["logout"],"params":{"reload":true},"default":"/logout.do"}}}]}}],"secondaryItems":[]}},"publicPage":{"menuEnabled":false,"logoRoute":{"type":"route","value":{"route":"landing","fields":{}}},"searchEnabled":false}}</value></sys_ux_page_property><sys_translated_text action="delete_multiple" query="documentkey=687d39a41dbd1d1096680fbe86ab87a4"/></record_update>]]></payload>
+        <payload_hash>1969571252</payload_hash>
+        <record_name>chrome_header</record_name>
+        <reverted_from/>
+        <source>b244f6081b395910a710639bbc4bcbb0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-04 14:19:34</sys_created_on>
+        <sys_id>d9df31681bbd1d10a710639bbc4bcba6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18308defc420000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-04 14:19:34</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>91df3168e6bd1d10bcaeb1a76db003a6</update_guid>
+        <update_guid_history>91df3168e6bd1d10bcaeb1a76db003a6:1969571252,06cfb1a44fbd1d10713b483a00f8581b:37493099,0ecfb1a4cebd1d10fdac4a4691a56d19:-191942746</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-04 14:30:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>07793987915a4ab4acb7c529e81f37c9</sys_id>
+        <sys_metadata>687d39a41dbd1d1096680fbe86ab87a4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="Leave Management System" source="x_492126_leave_m_0">6e44f6081b395910a710639bbc4bcbad</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Leave Management System">6e44f6081b395910a710639bbc4bcbad</sys_scope>
+        <sys_scope_delete display_value="">5c3567bebe3d49ae9b6d9e142825fd79</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_687d39a41dbd1d1096680fbe86ab87a4</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_687d39a41dbd1d1096680fbe86ab87a4">d9df31681bbd1d10a710639bbc4bcba6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-04 14:30:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

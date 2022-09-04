@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
+        <macroponent_config>{
+  "sysId" : "409de43187032100deddb882a2e3ecd9"
+}</macroponent_config>
+        <screen display_value="Article page Default">a87d39a4a6bd1d1005a09a1c538649b2</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-09-04 14:09:13</sys_created_on>
+        <sys_id>6c7d39a4b5bd1d101f684ce2cbbbaeb2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Leave Management System" source="x_492126_leave_m_0">6e44f6081b395910a710639bbc4bcbad</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Leave Management System">6e44f6081b395910a710639bbc4bcbad</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_6c7d39a4b5bd1d101f684ce2cbbbaeb2</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-09-04 14:09:13</sys_updated_on>
+    </sys_uib_screen_test_values>
+</record_update>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "container_1",
+  "elementLabel" : "Container 1",
+  "propertyValues" : { },
+  "eventMappings" : [ ],
+  "slot" : "wrapper",
+  "definition" : {
+    "id" : "d356d14b6e293a3020a244b63d278d8f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "confirmation_message_1",
+      "elementLabel" : "Confirmation message 1",
+      "propertyValues" : {
+        "icon" : {
+          "type" : "JSON_LITERAL",
+          "value" : "circle-close-outline"
+        },
+        "iconStatus" : {
+          "type" : "JSON_LITERAL",
+          "value" : "critical"
+        },
+        "header" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "message" : "Task Rejected",
+            "comment" : ""
+          }
+        },
+        "headerLevel" : {
+          "type" : "JSON_LITERAL",
+          "value" : "1"
+        },
+        "caption" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "moreInfo" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "resolution" : {
+          "type" : "MAP_CONTAINER",
+          "container" : { }
+        },
+        "primaryActionLabel" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "secondaryActionLabel" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "message" : "Go to homepage",
+            "comment" : ""
+          }
+        }
+      },
+      "eventMappings" : [ {
+        "eventMappingId" : "ckhddeeetzddaaaabuddhhhiioqlhhaafhe",
+        "isConfiguration" : false,
+        "offRowStorageId" : null,
+        "sourceEventApiName" : "confirm_message.NOW_CONFIRMATION_MESSAGE#SECONDARY_CLICKED",
+        "sourceEventDefinition" : {
+          "apiName" : "confirm_message.NOW_CONFIRMATION_MESSAGE#SECONDARY_CLICKED",
+          "id" : null,
+          "type" : "UXEVENT"
+        },
+        "sourceEventSysId" : null,
+        "targets" : [ {
+          "broker" : null,
+          "clientScript" : {
+            "sysId" : "a87d39a46dbd1d1004023fd062dd6bab"
+          },
+          "declarativeAction" : null,
+          "event" : null,
+          "operation" : null,
+          "targetId" : "ckhddeeetzddaaaabvddhhhiiffxwfbzwdd",
+          "type" : "CLIENT_SCRIPT"
+        } ]
+      } ],
+      "slot" : "Main",
+      "definition" : {
+        "id" : "71f1d86e8da97cc031fc30e03896cbe1",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : {
+        "background-color" : "white",
+        "margin" : "4rem auto 0"
+      }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "items" : [{"slotName":"Main","rules":{"grid-area":"main"},"styles":{"display":"flex","flex-direction":"row","align-items":"center","margin":"0 auto","width":"24rem"}}],
+        "root" : null,
+        "rules" : {"grid-template-rows":"auto","grid-template-columns":"1fr","grid-template-areas":"\"main\"","grid-gap":"1rem","height":"100%"},
+        "styles" : null,
+        "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+        "type" : "grid"
+      }
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : { }
+} ]</composition>
+        <da_relay_models/>
+        <data>[ ]</data>
+        <dispatched_events/>
+        <events/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{ }</internal_event_mappings>
+        <layout>{
+  "default" : {
+    "children" : null,
+    "items" : [{"slotName":"wrapper","rules":{"grid-area":"wrapper"},"styles":{"display":"flex","flex-direction":"column"}}],
+    "root" : null,
+    "rules" : {"grid-template-rows":"minmax(400px, auto)","grid-template-columns":"1fr","grid-template-areas":"\"wrapper\"","grid-gap":"0px","height":"100%"},
+    "styles" : {"background-color":"#f6f7f7"},
+    "templateId" : "b09f467615f39010f87783c65626d825",
+    "type" : "grid"
+  }
+}</layout>
+        <macroponent_dependencies/>
+        <name>Task rejected</name>
+        <props>[ ]</props>
+        <required_translations>[{"message":"Task Rejected","comment":""},{"message":"Go to homepage","comment":""}]</required_translations>
+        <root_component/>
+        <root_component_config>{ }</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[ ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-09-04 14:09:13</sys_created_on>
+        <sys_id>e87d39a4c1bd1d10ea9d1cfd3f51b8ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Task rejected</sys_name>
+        <sys_package display_value="Leave Management System" source="x_492126_leave_m_0">6e44f6081b395910a710639bbc4bcbad</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Leave Management System">6e44f6081b395910a710639bbc4bcbad</sys_scope>
+        <sys_update_name>sys_ux_macroponent_e87d39a4c1bd1d10ea9d1cfd3f51b8ab</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-09-04 14:09:13</sys_updated_on>
+    </sys_ux_macroponent>
+</record_update>

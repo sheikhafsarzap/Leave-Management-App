@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-09-04 13:49:31</sys_created_on>
+        <sys_id>49f83d2c1b7d1d10a710639bbc4bcbdf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x.492126.leave-management-system.*.snc_internal</sys_name>
+        <sys_package display_value="Leave Management System" source="x_492126_leave_m_0">6e44f6081b395910a710639bbc4bcbad</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Leave Management System">6e44f6081b395910a710639bbc4bcbad</sys_scope>
+        <sys_security_acl display_value="x.492126.leave-management-system.*">f7e8f92cc77d1d10cef2e767f57372f7</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_49f83d2c1b7d1d10a710639bbc4bcbdf</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-09-04 13:49:31</sys_updated_on>
+        <sys_user_role display_value="snc_internal" name="snc_internal">7fcaa702933002009c8579b4f47ffbde</sys_user_role>
+        <transaction_id>8de8f52c1b7d1d10a710639bbc4bcbb5</transaction_id>
+    </sys_security_acl_role>
+</record_update>

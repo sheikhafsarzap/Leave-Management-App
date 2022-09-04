@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Set request to loggedin user.</description>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Set Requestor</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+	if(g_form.getValue('state')=='' && g_form.getValue('requestor')==''){
+		g_form.setValue('requestor',g_user.userID);
+		
+		var requestor=g_form.getReference('requestor',setApprover);
+		function setApprover(requestor)
+		{
+			g_form.setValue('approver',requestor.manager);
+
+		}
+	}
+  
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-04 10:48:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ce6f05e81b391d10a710639bbc4bcbfb</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Set Requestor</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Leave Management System" source="x_492126_leave_m_0">6e44f6081b395910a710639bbc4bcbad</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Leave Management System">6e44f6081b395910a710639bbc4bcbad</sys_scope>
+        <sys_update_name>sys_script_client_ce6f05e81b391d10a710639bbc4bcbfb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-04 16:33:17</sys_updated_on>
+        <table>x_492126_leave_m_0_leave_request</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

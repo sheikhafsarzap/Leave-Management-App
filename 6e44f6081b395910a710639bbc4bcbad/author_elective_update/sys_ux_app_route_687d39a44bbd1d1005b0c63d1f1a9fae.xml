@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="Leave Management System Config">ec7d39a458bd1d1091bc135953fd31a2</app_config>
+        <description/>
+        <fields/>
+        <icon/>
+        <name>Landing Page</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>landing</route_type>
+        <screen_type display_value="Landing Page">e47d39a40bbd1d10180ce4a7fede31ae</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-09-04 14:09:12</sys_created_on>
+        <sys_id>687d39a44bbd1d1005b0c63d1f1a9fae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Landing Page</sys_name>
+        <sys_package display_value="Leave Management System" source="x_492126_leave_m_0">6e44f6081b395910a710639bbc4bcbad</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Leave Management System">6e44f6081b395910a710639bbc4bcbad</sys_scope>
+        <sys_update_name>sys_ux_app_route_687d39a44bbd1d1005b0c63d1f1a9fae</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-09-04 14:09:12</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Leave Management System">6e44f6081b395910a710639bbc4bcbad</application>
+        <file_path/>
+        <instance_id>2ad394afdb7ef3440ae3ac44d4961959</instance_id>
+        <instance_name>dev89404</instance_name>
+        <name>sys_ux_app_route_687d39a44bbd1d1005b0c63d1f1a9fae</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config display_value="Leave Management System Config">ec7d39a458bd1d1091bc135953fd31a2</app_config><description/><fields/><icon/><name>Landing Page</name><optional_parameters/><order>0</order><parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent><parent_macroponent_composition_element_id/><route_type>landing</route_type><screen_type display_value="Landing Page">e47d39a40bbd1d10180ce4a7fede31ae</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2022-09-04 14:09:12</sys_created_on><sys_id>687d39a44bbd1d1005b0c63d1f1a9fae</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Landing Page</sys_name><sys_package display_value="Leave Management System" source="x_492126_leave_m_0">6e44f6081b395910a710639bbc4bcbad</sys_package><sys_policy/><sys_scope display_value="Leave Management System">6e44f6081b395910a710639bbc4bcbad</sys_scope><sys_update_name>sys_ux_app_route_687d39a44bbd1d1005b0c63d1f1a9fae</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2022-09-04 14:09:12</sys_updated_on></sys_ux_app_route></record_update>]]></payload>
+        <payload_hash>668127545</payload_hash>
+        <record_name>Landing Page</record_name>
+        <reverted_from/>
+        <source>dfa03d001b220110a710639bbc4bcbf6</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2022-03-25 10:32:19</sys_created_on>
+        <sys_id>77124aac1bbd1d10a710639bbc4bcbcd</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>17fc0a257380000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX App Route</type>
+        <update_guid>37124aacf3bd1d101f07944c5050fdcd</update_guid>
+        <update_guid_history>37124aacf3bd1d101f07944c5050fdcd:668127545</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-04 14:29:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>0603871ee13b451880bc048efa357de4</sys_id>
+        <sys_metadata>687d39a44bbd1d1005b0c63d1f1a9fae</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Landing Page</sys_name>
+        <sys_package display_value="Leave Management System" source="x_492126_leave_m_0">6e44f6081b395910a710639bbc4bcbad</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Leave Management System">6e44f6081b395910a710639bbc4bcbad</sys_scope>
+        <sys_scope_delete display_value="">5c3567bebe3d49ae9b6d9e142825fd79</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_687d39a44bbd1d1005b0c63d1f1a9fae</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_687d39a44bbd1d1005b0c63d1f1a9fae">77124aac1bbd1d10a710639bbc4bcbcd</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-04 14:29:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

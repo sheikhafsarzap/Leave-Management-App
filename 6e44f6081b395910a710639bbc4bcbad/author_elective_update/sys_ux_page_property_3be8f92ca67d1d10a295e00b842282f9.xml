@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>global_search_configurations</name>
+        <page display_value="">7be8f92c3c7d1d10bd0d2db924b3e0f7</page>
+        <required_translations/>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-09-04 13:49:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3be8f92ca67d1d10a295e00b842282f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>global_search_configurations</sys_name>
+        <sys_package display_value="Leave Management System" source="x_492126_leave_m_0">6e44f6081b395910a710639bbc4bcbad</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Leave Management System">6e44f6081b395910a710639bbc4bcbad</sys_scope>
+        <sys_update_name>sys_ux_page_property_3be8f92ca67d1d10a295e00b842282f9</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-09-04 13:49:30</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_492126_leave_m_0.7be8f92c3c7d1d10bd0d2db924b3e0f7.root.global_search_configurations</unique_name>
+        <value>{&#13;
+  "globalSearchContextConfigId": "00731b9d5b231010d9a5ce1a8581c7dd"&#13;
+}</value>
+    </sys_ux_page_property>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Leave Management System">6e44f6081b395910a710639bbc4bcbad</application>
+        <file_path/>
+        <instance_id>2ad394afdb7ef3440ae3ac44d4961959</instance_id>
+        <instance_name>dev89404</instance_name>
+        <name>sys_ux_page_property_3be8f92ca67d1d10a295e00b842282f9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>global_search_configurations</name><page display_value="">7be8f92c3c7d1d10bd0d2db924b3e0f7</page><required_translations/><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2022-09-04 13:49:30</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3be8f92ca67d1d10a295e00b842282f9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>global_search_configurations</sys_name><sys_package display_value="Leave Management System" source="x_492126_leave_m_0">6e44f6081b395910a710639bbc4bcbad</sys_package><sys_policy/><sys_scope display_value="Leave Management System">6e44f6081b395910a710639bbc4bcbad</sys_scope><sys_update_name>sys_ux_page_property_3be8f92ca67d1d10a295e00b842282f9</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2022-09-04 13:49:30</sys_updated_on><type>json</type><unique_name>x_492126_leave_m_0.7be8f92c3c7d1d10bd0d2db924b3e0f7.root.global_search_configurations</unique_name><value>{&#13;
+  "globalSearchContextConfigId": "00731b9d5b231010d9a5ce1a8581c7dd"&#13;
+}</value></sys_ux_page_property></record_update>]]></payload>
+        <payload_hash>1282279014</payload_hash>
+        <record_name>global_search_configurations</record_name>
+        <reverted_from/>
+        <source>dfa03d001b220110a710639bbc4bcbf6</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2022-03-25 10:32:19</sys_created_on>
+        <sys_id>894d31a41bbd1d10a710639bbc4bcb01</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>17fc0a257380000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Page Property</type>
+        <update_guid>494d31a4a9bd1d106c696a391efe4201</update_guid>
+        <update_guid_history>494d31a4a9bd1d106c696a391efe4201:1282279014</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-04 14:08:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>2a2ac6f8fecf41919a0d4907bed26829</sys_id>
+        <sys_metadata>3be8f92ca67d1d10a295e00b842282f9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>global_search_configurations</sys_name>
+        <sys_package display_value="Leave Management System" source="x_492126_leave_m_0">6e44f6081b395910a710639bbc4bcbad</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Leave Management System">6e44f6081b395910a710639bbc4bcbad</sys_scope>
+        <sys_scope_delete display_value="">5c3567bebe3d49ae9b6d9e142825fd79</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_3be8f92ca67d1d10a295e00b842282f9</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_3be8f92ca67d1d10a295e00b842282f9">894d31a41bbd1d10a710639bbc4bcb01</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-04 14:08:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

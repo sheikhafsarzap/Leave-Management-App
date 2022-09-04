@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>NAV_ITEM_SELECTED_RELAY_bbe83d2c437d1d10d3d6571f8c83fe01</event_name>
+        <interfaces/>
+        <label>Nav Item Selected Relay (Article page Default)</label>
+        <props>[{"name":"route","fieldType":"string","interfaceApiName":"global.route","label":"Route type"},{"name":"fields","fieldType":"json","interfaceApiName":"global.route","label":"Route fields"},{"name":"params","fieldType":"json","interfaceApiName":"global.route","label":"Optionals parameters"},{"name":"redirect","fieldType":"boolean","interfaceApiName":null,"label":"If redirect is true, url will be redirected"},{"name":"passiveNavigation","fieldType":"boolean","interfaceApiName":null,"label":"Load in background"},{"name":"title","fieldType":"string","interfaceApiName":null,"label":"Title"},{"name":"multiInstField","fieldType":"string","interfaceApiName":null,"label":"Multi instance field"},{"name":"targetRoute","fieldType":"string","interfaceApiName":null,"label":"Sub navigation route "},{"name":"external","fieldType":"json","interfaceApiName":"global.route","label":"External URL object"}]</props>
+        <required_translations/>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-09-04 13:49:32</sys_created_on>
+        <sys_id>7be8f92cb57d1d10340866c1bbfe46fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Nav Item Selected Relay (Article page Default)</sys_name>
+        <sys_package display_value="Leave Management System" source="x_492126_leave_m_0">6e44f6081b395910a710639bbc4bcbad</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Leave Management System">6e44f6081b395910a710639bbc4bcbad</sys_scope>
+        <sys_update_name>sys_ux_event_7be8f92cb57d1d10340866c1bbfe46fa</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-09-04 13:49:32</sys_updated_on>
+    </sys_ux_event>
+</record_update>

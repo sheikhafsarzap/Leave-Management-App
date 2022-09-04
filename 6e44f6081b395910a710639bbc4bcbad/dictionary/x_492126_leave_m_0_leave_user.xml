@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Leave User" max_length="40" name="x_492126_leave_m_0_leave_user" sizeclass="5" type="collection">
+        <element label="Leave Balance" max_length="40" name="leave_balance" type="integer"/>
+        <element choice="3" label="Leave Type" max_length="32" name="leave_type" reference="x_492126_leave_m_0_leave_type" type="reference">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="leave_type"/>
+        </index>
+        <index name="index2">
+            <element name="user"/>
+        </index>
+    </element>
+</database>

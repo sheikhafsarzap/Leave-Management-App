@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="DELETE">
+        <active>true</active>
+        <admin_panel>268242201bfd1d10a710639bbc4bcbf6</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes/>
+        <page/>
+        <parent_app/>
+        <path>leave-management-app</path>
+        <root_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-04 14:31:23</sys_created_on>
+        <sys_id>aa8242201bfd1d10a710639bbc4bcbf8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Leave Management App</sys_name>
+        <sys_package display_value="Leave Management System" source="x_492126_leave_m_0">6e44f6081b395910a710639bbc4bcbad</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Leave Management System">6e44f6081b395910a710639bbc4bcbad</sys_scope>
+        <sys_update_name>sys_ux_page_registry_aa8242201bfd1d10a710639bbc4bcbf8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-04 14:31:23</sys_updated_on>
+        <title>Leave Management App</title>
+    </sys_ux_page_registry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Leave Management System">6e44f6081b395910a710639bbc4bcbad</application>
+        <file_path/>
+        <instance_id>2ad394afdb7ef3440ae3ac44d4961959</instance_id>
+        <instance_name>dev89404</instance_name>
+        <name>sys_ux_page_registry_aa8242201bfd1d10a710639bbc4bcbf8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry"><sys_ux_page_registry action="INSERT_OR_UPDATE"><active>true</active><admin_panel>268242201bfd1d10a710639bbc4bcbf6</admin_panel><admin_panel_table>sys_ux_app_config</admin_panel_table><auth_routes/><page/><parent_app/><path>leave-management-app</path><root_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</root_macroponent><sys_class_name>sys_ux_page_registry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-09-04 14:31:23</sys_created_on><sys_id>aa8242201bfd1d10a710639bbc4bcbf8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Leave Management App</sys_name><sys_package display_value="Leave Management System" source="x_492126_leave_m_0">6e44f6081b395910a710639bbc4bcbad</sys_package><sys_policy/><sys_scope display_value="Leave Management System">6e44f6081b395910a710639bbc4bcbad</sys_scope><sys_update_name>sys_ux_page_registry_aa8242201bfd1d10a710639bbc4bcbf8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-09-04 14:31:23</sys_updated_on><title>Leave Management App</title></sys_ux_page_registry></record_update>]]></payload>
+        <payload_hash>-230476581</payload_hash>
+        <record_name>Leave Management App</record_name>
+        <reverted_from/>
+        <source>b244f6081b395910a710639bbc4bcbb0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-04 14:31:23</sys_created_on>
+        <sys_id>ea8242201bfd1d10a710639bbc4bcbfa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18308e9cdf40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-04 14:31:23</sys_updated_on>
+        <type>UX Page Registry</type>
+        <update_guid>e282422004fd1d1055e621ff953918fa</update_guid>
+        <update_guid_history>e282422004fd1d1055e621ff953918fa:-230476581</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-04 16:30:20</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_registry">sys_ux_page_registry</sys_db_object>
+        <sys_id>05e2fdd85b8a457383a4e47b92a2d601</sys_id>
+        <sys_metadata>aa8242201bfd1d10a710639bbc4bcbf8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Leave Management App</sys_name>
+        <sys_package display_value="Leave Management System" source="x_492126_leave_m_0">6e44f6081b395910a710639bbc4bcbad</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Leave Management System">6e44f6081b395910a710639bbc4bcbad</sys_scope>
+        <sys_scope_delete display_value="">5c3567bebe3d49ae9b6d9e142825fd79</sys_scope_delete>
+        <sys_update_name>sys_ux_page_registry_aa8242201bfd1d10a710639bbc4bcbf8</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_registry_aa8242201bfd1d10a710639bbc4bcbf8">ea8242201bfd1d10a710639bbc4bcbfa</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-04 16:30:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

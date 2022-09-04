@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type">
+    <sys_ux_screen_type action="DELETE">
+        <description/>
+        <name>Landing Page</name>
+        <sys_class_name>sys_ux_screen_type</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-09-04 14:09:16</sys_created_on>
+        <sys_id>e47d39a40bbd1d10180ce4a7fede31ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Landing Page</sys_name>
+        <sys_package display_value="Leave Management System" source="x_492126_leave_m_0">6e44f6081b395910a710639bbc4bcbad</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Leave Management System">6e44f6081b395910a710639bbc4bcbad</sys_scope>
+        <sys_update_name>sys_ux_screen_type_e47d39a40bbd1d10180ce4a7fede31ae</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-09-04 14:09:16</sys_updated_on>
+    </sys_ux_screen_type>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Leave Management System">6e44f6081b395910a710639bbc4bcbad</application>
+        <file_path/>
+        <instance_id>2ad394afdb7ef3440ae3ac44d4961959</instance_id>
+        <instance_name>dev89404</instance_name>
+        <name>sys_ux_screen_type_e47d39a40bbd1d10180ce4a7fede31ae</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type"><sys_ux_screen_type action="INSERT_OR_UPDATE"><description/><name>Landing Page</name><sys_class_name>sys_ux_screen_type</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2022-09-04 14:09:16</sys_created_on><sys_id>e47d39a40bbd1d10180ce4a7fede31ae</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Landing Page</sys_name><sys_package display_value="Leave Management System" source="x_492126_leave_m_0">6e44f6081b395910a710639bbc4bcbad</sys_package><sys_policy/><sys_scope display_value="Leave Management System">6e44f6081b395910a710639bbc4bcbad</sys_scope><sys_update_name>sys_ux_screen_type_e47d39a40bbd1d10180ce4a7fede31ae</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2022-09-04 14:09:16</sys_updated_on></sys_ux_screen_type></record_update>]]></payload>
+        <payload_hash>-1436071661</payload_hash>
+        <record_name>Landing Page</record_name>
+        <reverted_from/>
+        <source>dfa03d001b220110a710639bbc4bcbf6</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2022-03-25 10:32:19</sys_created_on>
+        <sys_id>80228eec1bbd1d10a710639bbc4bcb32</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>17fc0a257380000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Screen Collection</type>
+        <update_guid>40228eec99bd1d109922816dad029e32</update_guid>
+        <update_guid_history>40228eec99bd1d109922816dad029e32:-1436071661</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-04 14:29:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen_type">sys_ux_screen_type</sys_db_object>
+        <sys_id>0acc87b8ba9c407e843093e763e8cd04</sys_id>
+        <sys_metadata>e47d39a40bbd1d10180ce4a7fede31ae</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Landing Page</sys_name>
+        <sys_package display_value="Leave Management System" source="x_492126_leave_m_0">6e44f6081b395910a710639bbc4bcbad</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Leave Management System">6e44f6081b395910a710639bbc4bcbad</sys_scope>
+        <sys_scope_delete display_value="">5c3567bebe3d49ae9b6d9e142825fd79</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_type_e47d39a40bbd1d10180ce4a7fede31ae</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_type_e47d39a40bbd1d10180ce4a7fede31ae">80228eec1bbd1d10a710639bbc4bcb32</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-04 14:29:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

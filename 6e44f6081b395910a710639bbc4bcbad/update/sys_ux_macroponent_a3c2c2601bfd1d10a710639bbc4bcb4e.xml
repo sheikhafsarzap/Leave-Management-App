@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "container_1",
+  "elementLabel" : "Container 1",
+  "propertyValues" : {
+    "ariaRegionName" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "",
+        "comment" : ""
+      }
+    },
+    "includeAriaHeading" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "ariaRegionHeadingLevel" : {
+      "type" : "JSON_LITERAL",
+      "value" : "1"
+    },
+    "type" : {
+      "type" : "JSON_LITERAL",
+      "value" : "section"
+    },
+    "ariaRole" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : null,
+  "definition" : {
+    "id" : "d356d14b6e293a3020a244b63d278d8f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "single_score_1",
+      "elementLabel" : "Donut",
+      "propertyValues" : {
+        "chartSize" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "showDataLabels" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "dataLabelsType" : {
+          "type" : "JSON_LITERAL",
+          "value" : "both"
+        },
+        "maxLabelSize" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "truncationType" : {
+          "type" : "JSON_LITERAL",
+          "value" : "end"
+        },
+        "showRegister" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "registerPosition" : {
+          "type" : "JSON_LITERAL",
+          "value" : "bottom"
+        },
+        "registerOrientation" : {
+          "type" : "JSON_LITERAL",
+          "value" : "horizontal"
+        },
+        "showRegisterOnSameLine" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "showRegisterValue" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "showRegisterPercentage" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "colorConfig" : {
+          "type" : "JSON_LITERAL",
+          "value" : {
+            "type" : "default"
+          }
+        },
+        "dataSources" : {
+          "type" : "LIST_CONTAINER",
+          "container" : [ {
+            "type" : "MAP_CONTAINER",
+            "container" : {
+              "isDatabaseView" : {
+                "type" : "JSON_LITERAL",
+                "value" : false
+              },
+              "allowRealTime" : {
+                "type" : "JSON_LITERAL",
+                "value" : true
+              },
+              "label" : {
+                "type" : "TRANSLATION_LITERAL",
+                "value" : {
+                  "code" : null,
+                  "message" : "Leave User",
+                  "comment" : ""
+                }
+              },
+              "sourceType" : {
+                "type" : "JSON_LITERAL",
+                "value" : "table"
+              },
+              "tableOrViewName" : {
+                "type" : "JSON_LITERAL",
+                "value" : "x_492126_leave_m_0_leave_user"
+              },
+              "filterQuery" : {
+                "type" : "JSON_LITERAL",
+                "value" : "userDYNAMIC90d1921e5f510100a9ad2572f2b477fe"
+              },
+              "reportSourceSysId" : {
+                "type" : "JSON_LITERAL",
+                "value" : null
+              },
+              "id" : {
+                "type" : "JSON_LITERAL",
+                "value" : "dGFibGV4XzQ5MjEyNl9sZWF2ZV9tXzBfbGVhdmVfdXNlcjE2NjIzMDUxMjY5NjE="
+              }
+            }
+          } ]
+        },
+        "showHeader" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "wrapTitle" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "showHeaderSeparator" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "title" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "showBorder" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "bareBorder" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "formats" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "metrics" : {
+          "type" : "LIST_CONTAINER",
+          "container" : [ {
+            "type" : "MAP_CONTAINER",
+            "container" : {
+              "dataSource" : {
+                "type" : "JSON_LITERAL",
+                "value" : "dGFibGV4XzQ5MjEyNl9sZWF2ZV9tXzBfbGVhdmVfdXNlcjE2NjIzMDUxMjY5NjE="
+              },
+              "id" : {
+                "type" : "JSON_LITERAL",
+                "value" : "ZEdGaWJHVjRYelE1TWpFeU5sOXNaV0YyWlY5dFh6QmZiR1ZoZG1WZmRYTmxjakUyTmpJek1EVXhNalk1TmpFPTE2NjIzMDUxMzAzNjk="
+              },
+              "aggregateFunction" : {
+                "type" : "JSON_LITERAL",
+                "value" : "SUM"
+              },
+              "numberFormat" : {
+                "type" : "JSON_LITERAL",
+                "value" : {
+                  "customFormat" : false
+                }
+              },
+              "axisId" : {
+                "type" : "JSON_LITERAL",
+                "value" : "primary"
+              },
+              "aggregateField" : {
+                "type" : "JSON_LITERAL",
+                "value" : "leave_balance"
+              }
+            }
+          } ]
+        },
+        "groupBy" : {
+          "type" : "JSON_LITERAL",
+          "value" : [ {
+            "groupBy" : [ {
+              "dataSource" : "dGFibGV4XzQ5MjEyNl9sZWF2ZV9tXzBfbGVhdmVfdXNlcjE2NjIzMDUxMjY5NjE=",
+              "groupByField" : "sys_created_on",
+              "isRange" : true,
+              "isPaBucket" : false
+            } ],
+            "maxNumberOfGroups" : "ALL",
+            "numberOfGroupsBasedOn" : "NO_OF_GROUP_BASED_ON_PER_METRIC",
+            "showOthers" : false
+          } ]
+        },
+        "sortBy" : {
+          "type" : "JSON_LITERAL",
+          "value" : "value"
+        },
+        "sortByOrder" : {
+          "type" : "JSON_LITERAL",
+          "value" : "desc"
+        },
+        "trendBy" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "showChange" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "showChangePercentage" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "showTarget" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "showForecast" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "showForecastRange" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "showTrend" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "showConfidenceBand" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "showGapPercentage" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "showSparkline" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "showMetricLabel" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "showThreshold" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "showComment" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "showTotalValue" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "followFilters" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "showFilterIcon" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "enableRealTimeUpdate" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "enableDrilldown" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "refreshFrequency" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "backgroundRefreshInterval" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "standardFormatData" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "filterConfigurations" : {
+          "type" : "STATE_BINDING",
+          "binding" : {
+            "address" : [ "parFilters" ]
+          }
+        },
+        "showMaximumRange" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "numberOfPeriods" : {
+          "type" : "JSON_LITERAL",
+          "value" : 3
+        },
+        "showAbsolutePeriod" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "startTime" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "endTime" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "period" : {
+          "type" : "JSON_LITERAL",
+          "value" : "M"
+        },
+        "dateFormat" : {
+          "type" : "JSON_LITERAL",
+          "value" : "default"
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : null,
+      "definition" : {
+        "id" : "a2b0596cec6b9d49dd1ff9bf76b5084b",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : null
+      },
+      "isHero" : false,
+      "isNonDestructive" : false,
+      "styles" : {
+        "height" : "30%",
+        "flex" : "none",
+        "width" : "30%"
+      }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "isInline" : null,
+        "items" : [{"element_id":"single_score_1","styles":{}}],
+        "root" : null,
+        "rules" : null,
+        "styles" : {"flex-direction":"column","align-items":"center","justify-content":"space-between","display":"flex","grid-template-columns":"1fr 1fr","grid-template-rows":"1fr 1fr"},
+        "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+        "type" : "flex"
+      },
+      "version" : "3.0.0"
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  },
+  "isHero" : false,
+  "isNonDestructive" : false,
+  "styles" : {
+    "width" : "100%",
+    "flex" : "none"
+  }
+} ]</composition>
+        <da_relay_models/>
+        <data>[ ]</data>
+        <dispatched_events/>
+        <events/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{ }</internal_event_mappings>
+        <layout>{
+  "default" : {
+    "children" : null,
+    "isInline" : null,
+    "items" : [{"element_id":"container_1","styles":{}},{"element_id":"data_row_1","styles":{}}],
+    "root" : null,
+    "rules" : null,
+    "styles" : {"flex-direction":"column"},
+    "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+    "type" : "flex"
+  },
+  "version" : "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>Home</name>
+        <props>[ ]</props>
+        <required_translations>[ {
+  "message" : "Leave User",
+  "comment" : ""
+} ]</required_translations>
+        <root_component/>
+        <root_component_config>{ }</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[ ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-04 14:32:34</sys_created_on>
+        <sys_id>a3c2c2601bfd1d10a710639bbc4bcb4e</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Home</sys_name>
+        <sys_package display_value="Leave Management System" source="x_492126_leave_m_0">6e44f6081b395910a710639bbc4bcbad</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Leave Management System">6e44f6081b395910a710639bbc4bcbad</sys_scope>
+        <sys_update_name>sys_ux_macroponent_a3c2c2601bfd1d10a710639bbc4bcb4e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-04 15:40:22</sys_updated_on>
+    </sys_ux_macroponent>
+</record_update>

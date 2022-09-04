@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Leave Type" max_length="40" name="x_492126_leave_m_0_leave_type" sizeclass="3" type="collection">
+        <element display="true" label="Leave Name" max_length="40" name="leave_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Quota" max_length="40" name="quota" type="integer"/>
+    </element>
+</database>

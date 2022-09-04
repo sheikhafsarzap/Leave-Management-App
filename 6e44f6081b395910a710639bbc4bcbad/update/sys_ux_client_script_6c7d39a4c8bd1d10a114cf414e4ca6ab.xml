@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Catalog Item Page">647d39a4fdbd1d10cf3e9c6ab753f9b0</macroponent>
+        <name>Order success redirection</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    const {
+        payload: params
+    } = event;
+    const route = "order_success";
+    api.emit('NAV_ITEM_SELECTED', {
+        route,
+        params
+    });
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-09-04 14:09:10</sys_created_on>
+        <sys_id>6c7d39a4c8bd1d10a114cf414e4ca6ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Order success redirection</sys_name>
+        <sys_package display_value="Leave Management System" source="x_492126_leave_m_0">6e44f6081b395910a710639bbc4bcbad</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Leave Management System">6e44f6081b395910a710639bbc4bcbad</sys_scope>
+        <sys_update_name>sys_ux_client_script_6c7d39a4c8bd1d10a114cf414e4ca6ab</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-09-04 14:09:10</sys_updated_on>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

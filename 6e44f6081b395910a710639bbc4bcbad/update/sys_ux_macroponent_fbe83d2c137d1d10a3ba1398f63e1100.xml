@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "message_wrapper",
+  "elementLabel" : "Message Wrapper",
+  "propertyValues" : { },
+  "eventMappings" : [ ],
+  "slot" : "wrapper",
+  "definition" : {
+    "id" : "d356d14b6e293a3020a244b63d278d8f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "confirmation_message_1",
+      "elementLabel" : "Confirmation message 1",
+      "propertyValues" : {
+        "icon" : {
+          "type" : "JSON_LITERAL",
+          "value" : "circle-check-outline"
+        },
+        "iconStatus" : {
+          "type" : "JSON_LITERAL",
+          "value" : "positive"
+        },
+        "header" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "message" : "Submitted!",
+            "comment" : ""
+          }
+        },
+        "headerLevel" : {
+          "type" : "JSON_LITERAL",
+          "value" : "1"
+        },
+        "caption" : {
+          "type" : "CLIENT_TRANSFORM_SCRIPT",
+          "script" : {
+            "apiVersion" : "2.0.0",
+            "inlineScript" : "/**\n  * @param {params} params\n  * @param {api} params.api\n  * @param {any} params.imports\n  */\nfunction evaluateProperty({api}) {\n\treturn `${api.state.referenceLabel} ${api.state.successNumber}`;\n}"
+          }
+        },
+        "moreInfo" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "message" : "Expect to hear from a team member soon.",
+            "comment" : ""
+          }
+        },
+        "resolution" : {
+          "type" : "MAP_CONTAINER",
+          "container" : { }
+        },
+        "primaryActionLabel" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "message" : "Return to home",
+            "comment" : ""
+          }
+        },
+        "secondaryActionLabel" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "message" : "View request",
+            "comment" : ""
+          }
+        },
+        "headerStyle" : {
+          "type" : "JSON_LITERAL",
+          "value" : "header-primary"
+        }
+      },
+      "eventMappings" : [ {
+        "eventMappingId" : "ckhaajpjqiaaaagsddhhhiicobhrbbaee",
+        "isConfiguration" : false,
+        "offRowStorageId" : null,
+        "sourceEventApiName" : "confirm_message.NOW_CONFIRMATION_MESSAGE#SECONDARY_CLICKED",
+        "sourceEventCorrelationId" : null,
+        "sourceEventDefinition" : {
+          "apiName" : "confirm_message.NOW_CONFIRMATION_MESSAGE#SECONDARY_CLICKED",
+          "id" : null,
+          "type" : "UXEVENT"
+        },
+        "sourceEventSysId" : null,
+        "targets" : [ {
+          "broker" : null,
+          "clientScript" : {
+            "sysId" : "33e83d2cd07d1d10935021ca1f104100"
+          },
+          "declarativeAction" : null,
+          "event" : null,
+          "operation" : null,
+          "targetId" : "ckhaajpjqjaaaagtddhhhiijjtbggshhggg",
+          "type" : "CLIENT_SCRIPT"
+        } ]
+      }, {
+        "eventMappingId" : "ckhaajeegggaaaaehhddhhhiiiicgaccliiaa",
+        "isConfiguration" : false,
+        "offRowStorageId" : null,
+        "sourceEventApiName" : "confirm_message.NOW_CONFIRMATION_MESSAGE#PRIMARY_CLICKED",
+        "sourceEventCorrelationId" : null,
+        "sourceEventDefinition" : {
+          "apiName" : "confirm_message.NOW_CONFIRMATION_MESSAGE#PRIMARY_CLICKED",
+          "id" : null,
+          "type" : "UXEVENT"
+        },
+        "sourceEventSysId" : null,
+        "targets" : [ {
+          "broker" : null,
+          "clientScript" : {
+            "sysId" : "b7e8f92c2f7d1d10596fa04c0acb83ff"
+          },
+          "declarativeAction" : null,
+          "event" : null,
+          "operation" : null,
+          "targetId" : "ckhaajeegggaaaaeiiddhhhiiiibiigzygg",
+          "type" : "CLIENT_SCRIPT"
+        } ]
+      } ],
+      "slot" : "Main",
+      "definition" : {
+        "id" : "71f1d86e8da97cc031fc30e03896cbe1",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : {
+        "background-color" : "white",
+        "margin" : "4rem auto 0"
+      }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "items" : [{"slotName":"Main","rules":{"grid-area":"main"},"styles":{"display":"flex","flex-direction":"row","align-items":"center","margin":"0 auto","width":"24rem"}}],
+        "root" : null,
+        "rules" : {"grid-template-rows":"auto","grid-template-columns":"1fr","grid-template-areas":"\"main\"","grid-gap":"1rem","height":"100%"},
+        "styles" : null,
+        "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+        "type" : "grid"
+      }
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : { }
+} ]</composition>
+        <da_relay_models/>
+        <data>[ {
+  "definition" : {
+    "id" : "2be8f92c1b7d1d10a710639bbc4bcbb6",
+    "type" : "TRANSFORM"
+  },
+  "elementId" : "request_item_data_broker_1",
+  "elementLabel" : "Request Item Data Broker 1",
+  "eventMappings" : [ {
+    "eventMappingId" : "ckhdddgggrgaaaaggsddhhhiiogdkgbbiie",
+    "isConfiguration" : false,
+    "offRowStorageId" : null,
+    "sourceEventApiName" : "sn_uxf.DATA_FETCH_SUCCEEDED",
+    "sourceEventCorrelationId" : null,
+    "sourceEventDefinition" : {
+      "apiName" : "sn_uxf.DATA_FETCH_SUCCEEDED",
+      "id" : null,
+      "type" : "UXEVENT"
+    },
+    "sourceEventSysId" : null,
+    "targets" : [ {
+      "broker" : null,
+      "clientScript" : {
+        "sysId" : "37e8f92c367d1d10d2fa1899d59d72ff"
+      },
+      "declarativeAction" : null,
+      "event" : null,
+      "operation" : null,
+      "targetId" : "ckhdddgggrgaaaaggtddhhhiieeqggffdgaacc",
+      "type" : "CLIENT_SCRIPT"
+    } ]
+  } ],
+  "inputValues" : {
+    "sysId" : {
+      "type" : "STATE_BINDING",
+      "binding" : {
+        "address" : [ "requestSysId" ]
+      }
+    }
+  },
+  "readEvaluationMode" : "EAGER"
+} ]</data>
+        <dispatched_events/>
+        <events/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{
+  "MACROPONENT_READY" : [ {
+    "broker" : null,
+    "clientScript" : {
+      "sysId" : "bbe83d2cd67d1d104bb4fcd668bea900"
+    },
+    "declarativeAction" : null,
+    "event" : null,
+    "operation" : null,
+    "targetId" : "ckhddddddaalaaaafftddhhhiifxccftjjvu",
+    "type" : "CLIENT_SCRIPT"
+  } ]
+}</internal_event_mappings>
+        <layout>{
+  "default" : {
+    "children" : null,
+    "items" : [{"slotName":"wrapper","rules":{"grid-area":"wrapper"},"styles":{"display":"flex","flex-direction":"column"}}],
+    "root" : null,
+    "rules" : {"grid-template-rows":"minmax(400px, auto)","grid-template-columns":"1fr","grid-template-areas":"\"wrapper\"","grid-gap":"0px","height":"100%"},
+    "styles" : {"background-color":"#f6f7f7"},
+    "templateId" : "b09f467615f39010f87783c65626d825",
+    "type" : "grid"
+  }
+}</layout>
+        <macroponent_dependencies/>
+        <name>Order success</name>
+        <props>[ {
+  "name" : "sysId",
+  "label" : "sysId",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : null,
+  "description" : "Sys Id",
+  "readOnly" : false,
+  "selectable" : false
+}, {
+  "name" : "table",
+  "label" : "Table",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : null,
+  "description" : "Table",
+  "readOnly" : false,
+  "selectable" : false
+}, {
+  "name" : "number",
+  "label" : "Number",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : null,
+  "description" : "Request Number ",
+  "readOnly" : false,
+  "selectable" : false
+} ]</props>
+        <required_translations>[ {
+  "message" : "Expect to hear from a team member soon.",
+  "comment" : ""
+}, {
+  "message" : "Return to home",
+  "comment" : ""
+}, {
+  "message" : "Submitted!",
+  "comment" : ""
+}, {
+  "message" : "View request",
+  "comment" : ""
+} ]</required_translations>
+        <root_component/>
+        <root_component_config>{ }</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[ {
+  "name" : "successNumber",
+  "label" : "successNumber",
+  "fieldType" : "string",
+  "valueType" : "string",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  }
+}, {
+  "name" : "successSysId",
+  "label" : "successSysId",
+  "fieldType" : "",
+  "valueType" : "",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  }
+}, {
+  "name" : "requestSysId",
+  "label" : "requestSysId",
+  "fieldType" : "",
+  "valueType" : "",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  }
+}, {
+  "name" : "referenceLabel",
+  "label" : "referenceLabel",
+  "fieldType" : "",
+  "valueType" : "",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  }
+} ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-09-04 13:49:29</sys_created_on>
+        <sys_id>fbe83d2c137d1d10a3ba1398f63e1100</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Order success</sys_name>
+        <sys_package display_value="Leave Management System" source="x_492126_leave_m_0">6e44f6081b395910a710639bbc4bcbad</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Leave Management System">6e44f6081b395910a710639bbc4bcbad</sys_scope>
+        <sys_update_name>sys_ux_macroponent_fbe83d2c137d1d10a3ba1398f63e1100</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-09-04 13:49:29</sys_updated_on>
+    </sys_ux_macroponent>
+</record_update>

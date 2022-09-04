@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_transform">
+    <sys_ux_data_broker_transform action="INSERT_OR_UPDATE">
+        <acl_failure_result/>
+        <api_name>x_492126_leave_m_0.Breadcrumbs broker_2</api_name>
+        <description>Used to populate the breadcrumbs component of custom portal</description>
+        <mutates_server_data>false</mutates_server_data>
+        <name>Breadcrumbs broker</name>
+        <output_schema/>
+        <private>false</private>
+        <props>[&#13;
+  {&#13;
+    "name": "displayValue",&#13;
+    "label": "Display value",&#13;
+    "fieldType": "string",&#13;
+    "valueType": "object",&#13;
+    "readOnly": false,&#13;
+    "mandatory": true,&#13;
+    "description": "Breadcrumb default value"&#13;
+  }&#13;
+]</props>
+        <required_translations>[{"message":"Breadcrumb default value","comment":""},{"message":"Display value","comment":""}]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[function transform(input) {
+	var home = gs.getMessage("Home");
+	var homeItem = {"label":home,"icon":"home-outline","hideLabel":false};
+    var itemValue = input.displayValue || "";
+    return [homeItem , {"label":itemValue}];
+}]]></script>
+        <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-09-04 14:09:15</sys_created_on>
+        <sys_id>9c7d39a41bbd1d10a710639bbc4bcb7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Breadcrumbs broker</sys_name>
+        <sys_package display_value="Leave Management System" source="x_492126_leave_m_0">6e44f6081b395910a710639bbc4bcbad</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Leave Management System">6e44f6081b395910a710639bbc4bcbad</sys_scope>
+        <sys_update_name>sys_ux_data_broker_transform_9c7d39a41bbd1d10a710639bbc4bcb7a</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-09-04 14:09:15</sys_updated_on>
+    </sys_ux_data_broker_transform>
+</record_update>

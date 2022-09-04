@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>chrome_header</name>
+        <page display_value="">7be8f92c3c7d1d10bd0d2db924b3e0f7</page>
+        <required_translations>[]</required_translations>
+        <route display_value="Landing Page">b3e83d2cf77d1d108824c6b0835ab703</route>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-09-04 13:49:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b7e8f92cc77d1d10af951e8dceccaaf9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="Leave Management System" source="x_492126_leave_m_0">6e44f6081b395910a710639bbc4bcbad</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Leave Management System">6e44f6081b395910a710639bbc4bcbad</sys_scope>
+        <sys_update_name>sys_ux_page_property_b7e8f92cc77d1d10af951e8dceccaaf9</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-09-04 13:49:32</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_492126_leave_m_0.7be8f92c3c7d1d10bd0d2db924b3e0f7.route.chrome_header.b3e83d2cf77d1d108824c6b0835ab703</unique_name>
+        <value>{&#13;
+    "privatePage":{&#13;
+       "searchEnabled": false&#13;
+    }&#13;
+}</value>
+    </sys_ux_page_property>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Leave Management System">6e44f6081b395910a710639bbc4bcbad</application>
+        <file_path/>
+        <instance_id>2ad394afdb7ef3440ae3ac44d4961959</instance_id>
+        <instance_name>dev89404</instance_name>
+        <name>sys_ux_page_property_b7e8f92cc77d1d10af951e8dceccaaf9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>chrome_header</name><page display_value="">7be8f92c3c7d1d10bd0d2db924b3e0f7</page><required_translations>[]</required_translations><route display_value="Landing Page">b3e83d2cf77d1d108824c6b0835ab703</route><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2022-09-04 13:49:32</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b7e8f92cc77d1d10af951e8dceccaaf9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>chrome_header</sys_name><sys_package display_value="Leave Management System" source="x_492126_leave_m_0">6e44f6081b395910a710639bbc4bcbad</sys_package><sys_policy/><sys_scope display_value="Leave Management System">6e44f6081b395910a710639bbc4bcbad</sys_scope><sys_update_name>sys_ux_page_property_b7e8f92cc77d1d10af951e8dceccaaf9</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2022-09-04 13:49:32</sys_updated_on><type>json</type><unique_name>x_492126_leave_m_0.7be8f92c3c7d1d10bd0d2db924b3e0f7.route.chrome_header.b3e83d2cf77d1d108824c6b0835ab703</unique_name><value>{&#13;
+    "privatePage":{&#13;
+       "searchEnabled": false&#13;
+    }&#13;
+}</value></sys_ux_page_property></record_update>]]></payload>
+        <payload_hash>-1823285289</payload_hash>
+        <record_name>chrome_header</record_name>
+        <reverted_from/>
+        <source>dfa03d001b220110a710639bbc4bcbf6</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2022-03-25 10:32:19</sys_created_on>
+        <sys_id>d14d31a41bbd1d10a710639bbc4bcb4e</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>17fc0a257380000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Page Property</type>
+        <update_guid>914d31a488bd1d105cffb64ab5537b4e</update_guid>
+        <update_guid_history>914d31a488bd1d105cffb64ab5537b4e:-1823285289</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-04 14:08:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>116e686dd52a427d8c995e7b3e6adee9</sys_id>
+        <sys_metadata>b7e8f92cc77d1d10af951e8dceccaaf9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="Leave Management System" source="x_492126_leave_m_0">6e44f6081b395910a710639bbc4bcbad</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Leave Management System">6e44f6081b395910a710639bbc4bcbad</sys_scope>
+        <sys_scope_delete display_value="">5c3567bebe3d49ae9b6d9e142825fd79</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_b7e8f92cc77d1d10af951e8dceccaaf9</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_b7e8f92cc77d1d10af951e8dceccaaf9">d14d31a41bbd1d10a710639bbc4bcb4e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-04 14:08:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_predicate_bundle">
+    <sys_ux_composite_data_m2m_predicate_bundle action="INSERT_OR_UPDATE">
+        <dataset display_value="Custom Portal Landing - My Requests Dataset">3fe8f92c287d1d1014c078851de3f2fe</dataset>
+        <order/>
+        <predicate_bundle display_value="My request - task bundle">3be8f92c8e7d1d103a0f9864a41755fd</predicate_bundle>
+        <sys_class_name>sys_ux_composite_data_m2m_predicate_bundle</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-09-04 13:49:33</sys_created_on>
+        <sys_id>f3e8f92c457d1d106037b2fe4a30c3fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Leave Management System" source="x_492126_leave_m_0">6e44f6081b395910a710639bbc4bcbad</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Leave Management System">6e44f6081b395910a710639bbc4bcbad</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_predicate_bundle_f3e8f92c457d1d106037b2fe4a30c3fd</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-09-04 13:49:33</sys_updated_on>
+    </sys_ux_composite_data_m2m_predicate_bundle>
+</record_update>

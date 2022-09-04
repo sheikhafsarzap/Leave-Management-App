@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-09-04 13:49:42</sys_created_on>
+        <sys_id>fff8316c1b7d1d10a710639bbc4bcb7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>23e8f92c1b7d1d10a710639bbc4bcbb6.x_492126_leave_m_0.LM User</sys_name>
+        <sys_package display_value="Leave Management System" source="x_492126_leave_m_0">6e44f6081b395910a710639bbc4bcbad</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Leave Management System">6e44f6081b395910a710639bbc4bcbad</sys_scope>
+        <sys_security_acl display_value="23e8f92c1b7d1d10a710639bbc4bcbb6">bbe83d2cb27d1d102495a2b0bd5e5f08</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_fff8316c1b7d1d10a710639bbc4bcb7e</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-09-04 13:49:42</sys_updated_on>
+        <sys_user_role display_value="x_492126_leave_m_0.LM User" name="x_492126_leave_m_0.LM User">c80aab8c1bbd5910a710639bbc4bcbb8</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

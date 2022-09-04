@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme">
+    <m2m_app_config_theme action="INSERT_OR_UPDATE">
+        <applicability display_value="Public">b3e83d2c5c7d1d10b4972792f7e09c0a</applicability>
+        <order>0</order>
+        <sys_class_name>m2m_app_config_theme</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-09-04 13:49:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f3e83d2c1e7d1d10a707b3d19ab7c40a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Leave Management System" source="x_492126_leave_m_0">6e44f6081b395910a710639bbc4bcbad</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Leave Management System">6e44f6081b395910a710639bbc4bcbad</sys_scope>
+        <sys_update_name>m2m_app_config_theme_f3e83d2c1e7d1d10a707b3d19ab7c40a</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-09-04 13:49:29</sys_updated_on>
+        <theme display_value="Light Theme">77e83d2c397d1d10b0641176600ec80a</theme>
+        <ux_app_configuration display_value="Leave Management System Config">3be8f92cf67d1d10b64b7f1c756539f7</ux_app_configuration>
+    </m2m_app_config_theme>
+</record_update>

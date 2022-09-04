@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_predicate_bundle">
+    <sys_ux_composite_data_m2m_predicate_bundle action="INSERT_OR_UPDATE">
+        <dataset display_value="Custom Portal Landing - Popular Articles">647d39a420bd1d10989f55f58b66feaa</dataset>
+        <order/>
+        <predicate_bundle display_value="Popular articles bundle">287d39a4b8bd1d1024f677de8231a0a8</predicate_bundle>
+        <sys_class_name>sys_ux_composite_data_m2m_predicate_bundle</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-09-04 14:09:15</sys_created_on>
+        <sys_id>687d39a462bd1d1066d131be6fd017a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Leave Management System" source="x_492126_leave_m_0">6e44f6081b395910a710639bbc4bcbad</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Leave Management System">6e44f6081b395910a710639bbc4bcbad</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_predicate_bundle_687d39a462bd1d1066d131be6fd017a9</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-09-04 14:09:15</sys_updated_on>
+    </sys_ux_composite_data_m2m_predicate_bundle>
+</record_update>

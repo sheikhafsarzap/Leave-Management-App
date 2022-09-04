@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_492126_leave_m_0.LeaveManagementUtility</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>All the uility scripts for Leave Management Application.</description>
+        <name>LeaveManagementUtility</name>
+        <script><![CDATA[var LeaveManagementUtility = Class.create();
+LeaveManagementUtility.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    
+	LeaveDurationCalc: function(){
+		var from_date = this.getParameter('sysparm_from_date');
+		var to_date = this.getParameter('sysparm_to_date');
+		
+		var startDate = new GlideDateTime(from_date).getDate();
+		var endDate = new GlideDateTime(to_date).getDate();
+		
+// 		gs.info("startDate >>"+startDate);
+// 		gs.info("endDate >>"+endDate);
+		
+		//8-5 weekdays excluding holidays
+		//var schedule = new GlideSchedule('090eecae0a0a0b260077e1dfa71da828');
+		
+		//24 x 7 - Exluding US holidays
+		var schedule = new GlideSchedule('cc0814ac1b711d10a710639bbc4bcb18');
+		var duration = schedule.duration(startDate, endDate);
+		//gs.info("duration"+duration.getDisplayValue());
+		//gs.info("duration day"+duration.getRoundedDayPart());
+		var dur = duration.getRoundedDayPart()+1;
+		//gs.info("dur rounded >>"+dur);
+		return dur;
+		
+	},
+	
+    type: 'LeaveManagementUtility'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-03 17:44:21</sys_created_on>
+        <sys_id>45e4659c1bf99910a710639bbc4bcbb7</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>LeaveManagementUtility</sys_name>
+        <sys_package display_value="Leave Management System" source="x_492126_leave_m_0">6e44f6081b395910a710639bbc4bcbad</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Leave Management System">6e44f6081b395910a710639bbc4bcbad</sys_scope>
+        <sys_update_name>sys_script_include_45e4659c1bf99910a710639bbc4bcbb7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-09-04 09:53:29</sys_updated_on>
+    </sys_script_include>
+</record_update>

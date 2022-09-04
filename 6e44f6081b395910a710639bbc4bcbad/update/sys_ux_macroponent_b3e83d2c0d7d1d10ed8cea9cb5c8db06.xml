@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition/>
+        <da_relay_models/>
+        <data/>
+        <dispatched_events/>
+        <events/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings/>
+        <layout>{&#13;
+  "default": {&#13;
+    "children": null,&#13;
+    "items": [&#13;
+      {&#13;
+        "slotName": "wrapper",&#13;
+        "rules": {&#13;
+          "grid-area": "wrapper"&#13;
+        },&#13;
+        "styles": {&#13;
+          "display": "flex",&#13;
+          "flex-direction": "column"&#13;
+        }&#13;
+      }&#13;
+    ],&#13;
+    "root": null,&#13;
+    "rules": {&#13;
+      "grid-template-rows": "minmax(400px, auto)",&#13;
+      "grid-template-columns": "1fr",&#13;
+      "grid-template-areas": "\"wrapper\"",&#13;
+      "grid-gap": "0px",&#13;
+      "height": "100%"&#13;
+    },&#13;
+    "styles": {"background-color": "#f6f7f7"},&#13;
+    "type": "grid"&#13;
+  }&#13;
+}</layout>
+        <macroponent_dependencies/>
+        <name>Portal Page</name>
+        <props/>
+        <required_translations>[]</required_translations>
+        <root_component/>
+        <root_component_config/>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties/>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-09-04 13:49:35</sys_created_on>
+        <sys_id>b3e83d2c0d7d1d10ed8cea9cb5c8db06</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Portal Page</sys_name>
+        <sys_package display_value="Leave Management System" source="x_492126_leave_m_0">6e44f6081b395910a710639bbc4bcbad</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Leave Management System">6e44f6081b395910a710639bbc4bcbad</sys_scope>
+        <sys_update_name>sys_ux_macroponent_b3e83d2c0d7d1d10ed8cea9cb5c8db06</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-09-04 13:49:35</sys_updated_on>
+    </sys_ux_macroponent>
+</record_update>

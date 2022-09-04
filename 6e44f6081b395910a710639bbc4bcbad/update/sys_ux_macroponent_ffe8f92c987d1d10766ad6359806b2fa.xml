@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "stylized_container",
+  "elementLabel" : "Stylized Container",
+  "propertyValues" : {
+    "label" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "bare" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "type" : {
+      "type" : "JSON_LITERAL",
+      "value" : "default"
+    },
+    "bgvar" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "border" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "canCollapse" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "collapsed" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "size" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "disableDismiss" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "defer" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "collapseButtonTooltipContent" : {
+      "type" : "JSON_LITERAL",
+      "value" : "Collapse container to hide contents"
+    },
+    "expandButtonTooltipContent" : {
+      "type" : "JSON_LITERAL",
+      "value" : "Expand container to show contents"
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : "Column 1",
+  "definition" : {
+    "id" : "80653115e23949b501e719ae9b0b42a6",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "rich_header",
+      "elementLabel" : "Rich Header",
+      "propertyValues" : {
+        "html" : {
+          "type" : "JSON_LITERAL",
+          "value" : "&lt;p style=\"font-size: 18.6667px;\"&gt;&lt;span data-mce-style=\"font-size: 36pt;\" style=\"font-size: 36pt;\"&gt;&lt;strong&gt;Get help using &lt;/strong&gt;&lt;/span&gt;&lt;span data-mce-style=\"font-size: 36pt;\" style=\"font-size: 36pt;\"&gt;&lt;strong&gt;your portal&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;"
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : "default-slot",
+      "definition" : {
+        "id" : "2d56f06d55f46bbd4e79b5e624beb940",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : { }
+    }, {
+      "elementId" : "rich_description",
+      "elementLabel" : "Rich Description",
+      "propertyValues" : {
+        "html" : {
+          "type" : "JSON_LITERAL",
+          "value" : "&lt;ul style=\"font-size: 18.6667px;\"&gt;&lt;li&gt;&lt;strong&gt;&lt;span data-mce-style=\"font-size: 18pt;\" style=\"font-size: 18pt;\"&gt;Search for answers&lt;/span&gt;&lt;/strong&gt;&lt;br data-mce-bogus=\"1\"&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;&lt;span data-mce-style=\"font-size: 18pt;\" style=\"font-size: 18pt;\"&gt;Request items and more&lt;/span&gt;&lt;/strong&gt;&lt;/li&gt;&lt;/ul&gt;"
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : "default-slot",
+      "definition" : {
+        "id" : "2d56f06d55f46bbd4e79b5e624beb940",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : { }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "items" : [{"slotName":"default-slot","styles":{"margin-top":"16vh","margin-left":"9vw"}}],
+        "root" : null,
+        "rules" : {"flex-direction":"column"},
+        "styles" : null,
+        "templateId" : null,
+        "type" : "flex"
+      }
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : { }
+}, {
+  "elementId" : "login_wrapper",
+  "elementLabel" : "Login Wrapper",
+  "propertyValues" : { },
+  "eventMappings" : [ ],
+  "slot" : "Column 2",
+  "definition" : {
+    "id" : "d356d14b6e293a3020a244b63d278d8f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "login_1",
+      "elementLabel" : "Login 1",
+      "propertyValues" : {
+        "logoUrl" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "heading" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "message" : "Log in",
+            "comment" : ""
+          }
+        },
+        "destinationUrl" : {
+          "type" : "DATA_OUTPUT_BINDING",
+          "binding" : {
+            "address" : [ "chrome_state_for_app_shell_ui_1", "loginRedirectUrl" ]
+          }
+        },
+        "ssoLabel" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "message" : "Use SSO",
+            "comment" : ""
+          }
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : "Main",
+      "definition" : {
+        "id" : "b149d22fc772967dcde6c861d5e67397",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : {
+        "margin-top" : "144px"
+      }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "items" : [{"slotName":"Main","rules":{"grid-area":"main"},"styles":{"max-width":"390px","margin":"auto"}}],
+        "root" : null,
+        "rules" : {"grid-template-rows":"auto","grid-template-columns":"1fr","grid-template-areas":"\"main\"","grid-gap":"1rem","height":"100%"},
+        "styles" : null,
+        "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+        "type" : "grid"
+      }
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : { }
+} ]</composition>
+        <da_relay_models/>
+        <data>[ {
+  "definition" : {
+    "id" : "7fc30640532110105a20ddeeff7b1276",
+    "type" : "CLIENT_STATE"
+  },
+  "elementId" : "chrome_state_for_app_shell_ui_1",
+  "elementLabel" : "Chrome State For App Shell UI 1",
+  "eventMappings" : [ ],
+  "inputValues" : {
+    "toolbarButtonsConfig" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "preferenceNames" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "processedUserPrefs" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "notificationConfiguration" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    }
+  },
+  "readEvaluationMode" : "EAGER"
+} ]</data>
+        <dispatched_events>7fe8f92c1b7d1d10b0404709c38250fa</dispatched_events>
+        <events/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{ }</internal_event_mappings>
+        <layout>{
+  "default" : {
+    "children" : null,
+    "items" : [{"slotName":"Column 1","rules":{"grid-area":"column1"},"styles":{"background-color":"rgb(var(--now-color_grouped--blue-1))","background-position":"80% 80%","background-repeat":"no-repeat","background-size":"827px 465px","background-image":"url(custom_portal_login.svg)"}},{"slotName":"Column 2","rules":{"grid-area":"column2"},"styles":{"padding-top":"9rem"}}],
+    "root" : null,
+    "rules" : {"grid-template-rows":"minmax(600px,auto)","grid-template-columns":"2fr 1fr","grid-template-areas":"\"column1 column2\"","grid-gap":"2rem","height":"100%"},
+    "styles" : null,
+    "templateId" : "8374fc8153831010e6bcddeeff7b1267",
+    "type" : "grid"
+  }
+}</layout>
+        <macroponent_dependencies/>
+        <name>Login</name>
+        <props>[ ]</props>
+        <required_translations>[ {
+  "message" : "Log in",
+  "comment" : ""
+}, {
+  "message" : "Use SSO",
+  "comment" : ""
+} ]</required_translations>
+        <root_component/>
+        <root_component_config>{ }</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[ ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-09-04 13:49:32</sys_created_on>
+        <sys_id>ffe8f92c987d1d10766ad6359806b2fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Login</sys_name>
+        <sys_package display_value="Leave Management System" source="x_492126_leave_m_0">6e44f6081b395910a710639bbc4bcbad</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Leave Management System">6e44f6081b395910a710639bbc4bcbad</sys_scope>
+        <sys_update_name>sys_ux_macroponent_ffe8f92c987d1d10766ad6359806b2fa</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-09-04 13:49:32</sys_updated_on>
+    </sys_ux_macroponent>
+</record_update>

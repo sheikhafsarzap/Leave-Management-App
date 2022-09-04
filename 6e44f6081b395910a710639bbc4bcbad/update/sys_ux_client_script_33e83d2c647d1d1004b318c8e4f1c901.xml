@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Landing Page">f7e83d2c1c7d1d10a0f70e02ac8bf805</macroponent>
+        <name>My Tasks - Set sysID inside modal</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[function handler({
+    api,
+    event,
+    imports
+}) {
+        api.setState("cardID",event.payload.sysId);
+    } 
+]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-09-04 13:49:33</sys_created_on>
+        <sys_id>33e83d2c647d1d1004b318c8e4f1c901</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Tasks - Set sysID inside modal</sys_name>
+        <sys_package display_value="Leave Management System" source="x_492126_leave_m_0">6e44f6081b395910a710639bbc4bcbad</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Leave Management System">6e44f6081b395910a710639bbc4bcbad</sys_scope>
+        <sys_update_name>sys_ux_client_script_33e83d2c647d1d1004b318c8e4f1c901</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-09-04 13:49:33</sys_updated_on>
+        <type/>
+    </sys_ux_client_script>
+</record_update>
